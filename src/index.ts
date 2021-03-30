@@ -1,30 +1,24 @@
-// import { Sorter } from './Sorter';
-// import { NumberCollections } from './NumberCollections';
-// import { CharacterCollection } from './CharacterCollection';
+import { NumberCollections } from './NumberCollections';
+import { CharacterCollection } from './CharacterCollection';
 import { LinkedList } from './LinkedList';
 import { Sorter } from './Sorter';
 
-// // const numberCollections = new NumberCollections([ 2, 1, -1, 3 ]);
-
+const numberCollections = new NumberCollections([ 2, 1, -1, 3 ]);
+numberCollections.sort();
 // // const sorter = new Sorter(numberCollections);
 // // sorter.sort();
 
-// // console.log(numberCollections.data);
+console.log(numberCollections.data);
 
-// const characterCollection = new CharacterCollection('Piincher');
+const characterCollection = new CharacterCollection('Piincher');
+characterCollection.sort();
 
-// const sorter = new Sorter(characterCollection);
-
-// sorter.sort();
-// console.log(characterCollection.data);
+console.log(characterCollection.data);
 const linkedList = new LinkedList();
-
+linkedList.sort();
 linkedList.add(500);
 linkedList.add(-12);
 linkedList.add(-1);
 linkedList.add(90);
 
-const sorter = new Sorter(linkedList);
-
-sorter.sort();
 linkedList.print();
