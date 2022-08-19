@@ -1,1 +1,5 @@
-console.log("hi ther")
+class Sorter {
+  constructor(public collection: number[]) {}
+
+  sort(): void {}
+}
